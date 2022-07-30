@@ -1,0 +1,1210 @@
+fileFormatVersion: 2
+guid: 9d182edba2ca9a643b56354d6d5ba8fd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 270, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bonus Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 17
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e222621303bfab47bd67fc7af1ddc68
+      internalID: -644738897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 17
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ea33748d42de6489a082f32bd8b98f
+      internalID: -182470231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68387ebbbbbf0249bf8ff6786118b35
+      internalID: 180707428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 144
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a7ff663d8870a4b969196aa49c9d13
+      internalID: -120389974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 144
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7c2c77cb9e0a6479ab333532462995
+      internalID: 1369990867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee555ef3e535ccb41820cc1b97e18a40
+      internalID: -1970820116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2e3369795e8b54aa21d0e1690afabe
+      internalID: -952444346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_7
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 114
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5a470528d53c24c8551dca751f1143
+      internalID: 853581204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_8
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 114
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1dccbb4f97c9fd4ea6727a837275d54
+      internalID: 1456419542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_9
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 112
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a84b8b17b41d84a8e838e0222f41fc
+      internalID: -2119772538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 92
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8e530232d20de47b4145848a1053ff
+      internalID: 1385816766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 86
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cb253581678d04ea30c959aebfaf4c
+      internalID: -2099932467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_12
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 86
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320c134840f945f4c8e6e42665a17deb
+      internalID: 152163769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_13
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 81
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bdba1bcfa97fa249800c8a5e60b2335
+      internalID: -1782557708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 76
+        width: 48
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8040c872584563d4aa53e153ee138ecb
+      internalID: -877202007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_15
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8c04fd3c666354a875d886583e3d15
+      internalID: 1456001422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_16
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 64
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817f0472291d1d343926be545d09984f
+      internalID: 615086376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386ea81bd71a6da4898eae062dd3d5f1
+      internalID: 2144256848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_18
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 64
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd205e68b8edefb4aa37018a9ca5f2d2
+      internalID: 1439966563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_19
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 64
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12021f0b61f69f64a8ea3d54e2d94ba8
+      internalID: 165621215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_20
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 49
+        width: 48
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafa3367aac80d845b3e133f01331289
+      internalID: -1135266241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc20a87ef561b6344822123bb0d1f31b
+      internalID: -360006535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_22
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 48
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ed47ed09cb51c4eaa617c48d60daf7
+      internalID: -376486916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d151a17360ee8df429a4ab275934f358
+      internalID: -1507031176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aea183f64334724c98528b319b06c45
+      internalID: 702769007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_25
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f18c08a91ee03643bcf10027b3aea68
+      internalID: 606940383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_26
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 81
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0882db2e88cd20747b154561bd319923
+      internalID: 365250312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 91
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d801ff1e5573f54caed4132fcd1faa2
+      internalID: -1649495075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 81
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf21bcde239ae8c45bf38c71dd291af4
+      internalID: 1403121514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 7
+        width: 80
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893b0e8ad9b588342a33c819acda5f27
+      internalID: -1095206227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 22
+        width: 80
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296e2b4cb09b6b846a110e43387ff87d
+      internalID: 422828876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tileset_31
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 81
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fb8c91a207aeb4e8dd6325f4f88c57
+      internalID: 777463514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -128, y: -8}
+      - {x: -129, y: 104}
+      - {x: -112, y: 104}
+      - {x: -112, y: -8}
+    - - {x: -160, y: -8}
+      - {x: -160, y: 104}
+      - {x: -144, y: 104}
+      - {x: -143, y: -8}
+    - - {x: -80, y: -28}
+      - {x: -80, y: -24}
+      - {x: -32, y: -24}
+      - {x: -32, y: -28}
+    - - {x: -96, y: 8}
+      - {x: -96, y: 24}
+      - {x: -32, y: 24}
+      - {x: -32, y: 8}
+    - - {x: -96, y: 40}
+      - {x: -96, y: 88}
+      - {x: -48, y: 88}
+      - {x: -48, y: 40}
+    - - {x: -29, y: 40}
+      - {x: -24.88002, y: 44.11998}
+      - {x: -18, y: 45}
+      - {x: -18, y: 52}
+      - {x: -12, y: 59}
+      - {x: -21, y: 61}
+      - {x: -29, y: 57}
+      - {x: -29, y: 94}
+      - {x: -10, y: 94}
+      - {x: 4, y: 91}
+      - {x: 4, y: 79}
+      - {x: 0, y: 63}
+      - {x: -6, y: 50}
+      - {x: 15, y: 40}
+    - - {x: 32, y: 38}
+      - {x: 38, y: 45}
+      - {x: 45, y: 43}
+      - {x: 45, y: 50}
+      - {x: 52, y: 62}
+      - {x: 44, y: 55}
+      - {x: 38, y: 62}
+      - {x: 33, y: 72}
+      - {x: 32, y: 95}
+      - {x: 69, y: 94}
+      - {x: 69, y: 80}
+      - {x: 59, y: 51}
+      - {x: 71, y: 43}
+      - {x: 78, y: 46}
+      - {x: 79, y: 38}
+    - - {x: 80, y: 72}
+      - {x: 80, y: 88}
+      - {x: 96, y: 88}
+      - {x: 96, y: 72}
+    - - {x: 36, y: 8}
+      - {x: 36, y: 22}
+      - {x: 61, y: 22}
+      - {x: 60, y: 8}
+    - - {x: 11, y: 9}
+      - {x: 11, y: 22}
+      - {x: 16, y: 22}
+      - {x: 16, y: 9}
+    - - {x: -16, y: 10}
+      - {x: -16, y: 22}
+      - {x: -11, y: 22}
+      - {x: -11, y: 10}
+    - - {x: -17, y: -18}
+      - {x: -17, y: 3}
+      - {x: -8, y: 3}
+      - {x: -8, y: -18}
+    - - {x: 8, y: -18}
+      - {x: 8, y: 3}
+      - {x: 16, y: 3}
+      - {x: 16, y: -18}
+    - - {x: 22, y: -23}
+      - {x: 22, y: -7}
+      - {x: 74, y: -7}
+      - {x: 74, y: -23}
+    - - {x: -81, y: -56}
+      - {x: -81, y: -38}
+      - {x: -32, y: -38}
+      - {x: -32, y: -56}
+    - - {x: -18, y: -41}
+      - {x: -18, y: -25}
+      - {x: -3, y: -25}
+      - {x: -3, y: -41}
+    - - {x: 2, y: -41}
+      - {x: 2, y: -25}
+      - {x: 17, y: -25}
+      - {x: 17, y: -41}
+    - - {x: 8, y: -58}
+      - {x: 8, y: -49}
+      - {x: 18, y: -49}
+      - {x: 18, y: -58}
+    - - {x: -18, y: -58}
+      - {x: -18, y: -50}
+      - {x: -7, y: -50}
+      - {x: -7, y: -58}
+    - - {x: 53, y: -104}
+      - {x: 53, y: -78}
+      - {x: 51, y: -67}
+      - {x: 46, y: -56}
+      - {x: 64, y: -56}
+      - {x: 64, y: -104}
+    - - {x: -160, y: -102}
+      - {x: -160, y: -67}
+      - {x: -32, y: -72}
+      - {x: -32, y: -81}
+      - {x: -32, y: -88}
+    - - {x: 64, y: -104}
+      - {x: 64, y: -40}
+      - {x: 128, y: -40}
+      - {x: 128, y: -104}
+    - - {x: -32, y: -83}
+      - {x: -32, y: -72}
+      - {x: 48, y: -72}
+      - {x: 48, y: -83}
+    - - {x: -32, y: -99}
+      - {x: -32, y: -88}
+      - {x: 48, y: -88}
+      - {x: 49, y: -99}
+    - - {x: -137, y: -18}
+      - {x: -141, y: -8}
+      - {x: -128, y: -8}
+      - {x: -128, y: -13}
+      - {x: -128, y: -24}
+    - - {x: -160, y: -23}
+      - {x: -160, y: -8}
+      - {x: -147, y: -8}
+      - {x: -152, y: -16}
+    - - {x: -140, y: -41}
+      - {x: -140, y: -36}
+      - {x: -134, y: -31}
+      - {x: -128, y: -29}
+      - {x: -128, y: -41}
+    - - {x: -160, y: -41}
+      - {x: -160, y: -28}
+      - {x: -152, y: -32}
+      - {x: -147, y: -41}
+    - - {x: -128, y: -40}
+      - {x: -128, y: -36}
+      - {x: -126, y: -36}
+      - {x: -123, y: -40}
+    - - {x: -102, y: -40}
+      - {x: -99, y: -37}
+      - {x: -96, y: -34}
+      - {x: -96, y: -40}
+    - - {x: -99, y: -11}
+      - {x: -101, y: -8}
+      - {x: -96, y: -8}
+      - {x: -96, y: -13}
+    - - {x: -128, y: -14}
+      - {x: -128, y: -8}
+      - {x: -122, y: -8}
+      - {x: -125, y: -12}
+    physicsShape:
+    - - {x: 62.945023, y: -104}
+      - {x: 130, y: -104}
+      - {x: 130, y: -40}
+      - {x: 128, y: -38}
+      - {x: 64, y: -38}
+    - - {x: -31.83345, y: -87.63957}
+      - {x: -32.222717, y: -70.031815}
+      - {x: -160, y: -66}
+      - {x: -160, y: -92}
+      - {x: -157, y: -101}
+      - {x: -156, y: -102}
+      - {x: -37.549232, y: -101.29396}
+    - - {x: 119, y: -58}
+      - {x: 119, y: -59}
+      - {x: 123, y: -63}
+      - {x: 123, y: -62}
+    - - {x: -16, y: -49}
+      - {x: -18, y: -51}
+      - {x: -18, y: -54}
+      - {x: -14, y: -58}
+      - {x: -10, y: -58}
+      - {x: -8, y: -56}
+      - {x: -8, y: -51}
+      - {x: -10, y: -49}
+    - - {x: 16, y: -49}
+      - {x: 8, y: -49}
+      - {x: 8, y: -58}
+      - {x: 13, y: -58}
+      - {x: 18, y: -54}
+      - {x: 18, y: -51}
+    - - {x: -82, y: -38}
+      - {x: -82, y: -57}
+      - {x: -37, y: -57}
+      - {x: -31, y: -56}
+      - {x: -30, y: -51}
+      - {x: -30, y: -39}
+      - {x: -31, y: -38}
+    - - {x: -160, y: -28}
+      - {x: -160, y: -42}
+      - {x: -147, y: -42}
+      - {x: -146, y: -40}
+      - {x: -146, y: -37}
+      - {x: -155, y: -28}
+    - - {x: -131, y: -28}
+      - {x: -141, y: -34}
+      - {x: -142, y: -36}
+      - {x: -142, y: -42}
+      - {x: -122, y: -42}
+      - {x: -122, y: -38}
+      - {x: -126, y: -28}
+    - - {x: -97, y: -33}
+      - {x: -103, y: -37}
+      - {x: -103, y: -40}
+      - {x: -102, y: -42}
+      - {x: -96, y: -42}
+      - {x: -94, y: -40}
+      - {x: -94, y: -35}
+      - {x: -96, y: -33}
+    - - {x: -1, y: -25}
+      - {x: -18, y: -25}
+      - {x: -18, y: -36}
+      - {x: -15, y: -42}
+      - {x: -4, y: -42}
+      - {x: -2, y: -41}
+      - {x: -1, y: -30}
+    - - {x: 1, y: -25}
+      - {x: 1, y: -42}
+      - {x: 17, y: -42}
+      - {x: 18, y: -37}
+      - {x: 18, y: -25}
+    - - {x: -8, y: -32}
+      - {x: -8, y: -33}
+      - {x: -7, y: -34}
+      - {x: -8, y: -33}
+    - - {x: -81, y: -22}
+      - {x: -82, y: -24}
+      - {x: -82, y: -28}
+      - {x: -78, y: -30}
+      - {x: -34, y: -30}
+      - {x: -30, y: -28}
+      - {x: -30, y: -24}
+      - {x: -31, y: -22}
+    - - {x: -143.61316, y: -7.976898}
+      - {x: -144.59607, y: 104}
+      - {x: -160, y: 104}
+      - {x: -159.9354, y: -7.95018}
+    - - {x: 20, y: -6}
+      - {x: 20, y: -22}
+      - {x: 28, y: -25}
+      - {x: 69, y: -25}
+      - {x: 76, y: -22}
+      - {x: 76, y: -9}
+      - {x: 71, y: -6}
+    - - {x: -18, y: 4}
+      - {x: -18, y: -20}
+      - {x: -6, y: -20}
+      - {x: -6, y: 4}
+    - - {x: 8, y: 4}
+      - {x: 6, y: 1}
+      - {x: 6, y: -17}
+      - {x: 7, y: -20}
+      - {x: 18, y: -20}
+      - {x: 18, y: 4}
+    - - {x: 45, y: -17}
+      - {x: 45, y: -18}
+      - {x: 49, y: -17}
+      - {x: 50, y: -18}
+      - {x: 51, y: -18}
+      - {x: 51, y: -17}
+      - {x: 47, y: -18}
+      - {x: 46, y: -17}
+    - - {x: -102, y: -8}
+      - {x: -102, y: -9}
+      - {x: -97, y: -14}
+      - {x: -94, y: -13}
+      - {x: -94, y: -8}
+      - {x: -96, y: -6}
+      - {x: -100, y: -6}
+    - - {x: -30, y: 24}
+      - {x: -32, y: 26}
+      - {x: -95, y: 26}
+      - {x: -98, y: 25}
+      - {x: -98, y: 8}
+      - {x: -96, y: 6}
+      - {x: -32, y: 6}
+      - {x: -30, y: 8}
+    - - {x: 40, y: 24}
+      - {x: 34, y: 20}
+      - {x: 34, y: 10}
+      - {x: 35, y: 7}
+      - {x: 37, y: 6}
+      - {x: 57, y: 6}
+      - {x: 62, y: 7}
+      - {x: 62, y: 18}
+      - {x: 54, y: 24}
+    - - {x: -12, y: 23}
+      - {x: -16, y: 23}
+      - {x: -18, y: 22}
+      - {x: -18, y: 9}
+      - {x: -16, y: 8}
+      - {x: -13, y: 8}
+      - {x: -9, y: 12}
+      - {x: -9, y: 20}
+    - - {x: 12, y: 23}
+      - {x: 9, y: 19}
+      - {x: 9, y: 12}
+      - {x: 14, y: 8}
+      - {x: 16, y: 8}
+      - {x: 18, y: 10}
+      - {x: 18, y: 22}
+      - {x: 16, y: 23}
+    - - {x: -98, y: 90}
+      - {x: -98, y: 42}
+      - {x: -96, y: 38}
+      - {x: -46, y: 38}
+      - {x: -46, y: 90}
+    - - {x: -30.466599, y: 59.51892}
+      - {x: -20.290085, y: 62.56978}
+      - {x: -13.706375, y: 57.603043}
+      - {x: -18.66069, y: 52.42679}
+      - {x: -18.90332, y: 44.630325}
+      - {x: -24.679459, y: 44.47769}
+      - {x: -31, y: 38}
+      - {x: 16, y: 38}
+      - {x: 14.172073, y: 44.16469}
+      - {x: -3.865509, y: 51.26918}
+      - {x: 0.70918274, y: 60.332993}
+      - {x: 1.293396, y: 70.40752}
+      - {x: 11, y: 90}
+      - {x: 5, y: 96}
+      - {x: -24, y: 96}
+      - {x: -31, y: 93}
+    - - {x: 39, y: 96}
+      - {x: 32, y: 82}
+      - {x: 32, y: 71}
+      - {x: 38, y: 64}
+      - {x: 40, y: 62}
+      - {x: 43, y: 63}
+      - {x: 43, y: 57}
+      - {x: 45, y: 55}
+      - {x: 44, y: 54}
+      - {x: 45.588028, y: 45.527023}
+      - {x: 35, y: 41}
+      - {x: 36, y: 38}
+      - {x: 79, y: 38}
+      - {x: 80, y: 40}
+      - {x: 62.595535, y: 52.81299}
+      - {x: 67.7318, y: 68.73279}
+      - {x: 70, y: 96}
+    - - {x: 78, y: 90}
+      - {x: 78, y: 70}
+      - {x: 98, y: 70}
+      - {x: 98, y: 90}
+    - - {x: -32.11976, y: -98.43945}
+      - {x: -31.971695, y: -87.88154}
+      - {x: 48.21884, y: -87.84452}
+      - {x: 49.27211, y: -98.57111}
+    - - {x: -32.12671, y: -82.088326}
+      - {x: -32.12671, y: -71.3525}
+      - {x: 47.937057, y: -71.07956}
+      - {x: 48.755905, y: -82.088326}
+    - - {x: -134.38654, y: -19.43435}
+      - {x: -140.82576, y: -12.520805}
+      - {x: -141.35918, y: -7.364586}
+      - {x: -128.02415, y: -7.364586}
+      - {x: -128.02415, y: -23.011017}
+    - - {x: -159.8504, y: -22.833214}
+      - {x: -159.8504, y: -8.07579}
+      - {x: -145.62637, y: -8.07579}
+      - {x: -151.13818, y: -15.899002}
+    - - {x: -127.84635, y: -14.298798}
+      - {x: -127.84635, y: -7.7201843}
+      - {x: -121.97894, y: -7.7201843}
+      - {x: -124.46815, y: -12.520798}
+    - - {x: -127.78975, y: -7.9510117}
+      - {x: -128.0251, y: 104}
+      - {x: -111.08008, y: 103.838974}
+      - {x: -111.08008, y: -7.9510193}
+    - - {x: 53.79457, y: -104}
+      - {x: 53.913254, y: -79.83403}
+      - {x: 52.967255, y: -62.81832}
+      - {x: 48.085037, y: -62.010433}
+      - {x: 47.6064, y: -55.513325}
+      - {x: 63.08107, y: -55.127094}
+      - {x: 63.93312, y: -57.707714}
+      - {x: 62.127777, y: -64.05929}
+      - {x: 58.986465, y: -71.1642}
+      - {x: 58.839325, y: -82.70617}
+      - {x: 57.903946, y: -91.76137}
+      - {x: 57.970367, y: -104}
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bonus Tileset_15: 1456001422
+      Bonus Tileset_23: -1507031176
+      Bonus Tileset_9: -2119772538
+      Bonus Tileset_6: -952444346
+      Bonus Tileset_13: -1782557708
+      Bonus Tileset_14: -877202007
+      Bonus Tileset_24: 702769007
+      Bonus Tileset_21: -360006535
+      Bonus Tileset_2: 180707428
+      Bonus Tileset_10: 1385816766
+      Bonus Tileset_25: 606940383
+      Bonus Tileset_20: -1135266241
+      Bonus Tileset_8: 1456419542
+      Bonus Tileset_18: 1439966563
+      Bonus Tileset_22: -376486916
+      Bonus Tileset_1: -182470231
+      Bonus Tileset_26: 365250312
+      Bonus Tileset_7: 853581204
+      Bonus Tileset_29: -1095206227
+      Bonus Tileset_28: 1403121514
+      Bonus Tileset_16: 615086376
+      Bonus Tileset_0: -644738897
+      Bonus Tileset_17: 2144256848
+      Bonus Tileset_31: 777463514
+      Bonus Tileset_12: 152163769
+      Bonus Tileset_5: -1970820116
+      Bonus Tileset_30: 422828876
+      Bonus Tileset_3: -120389974
+      Bonus Tileset_27: -1649495075
+      Bonus Tileset_19: 165621215
+      Bonus Tileset_4: 1369990867
+      Bonus Tileset_11: -2099932467
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
