@@ -1,92 +1,61 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class playerMovement : MonoBehaviour
 {
-    [Header("Speed")]
-    public float runSpeed = 3.5f;
-    public float JumpForce = 5f;
+    public float Speed = 5f;
+    public float JumpForce = 2f;
+    public Transform _fetPos;
+    public LayerMask _whatIsGround;
 
+    private bool _turnFacing;
+    private bool _isGrounded;
+    private Rigidbody2D _rb;
+    public float _checkRadius = 0.3f;
 
-    private Rigidbody2D _Rigidbody;
-    private MoveState _moveState = MoveState.Idle;
-    private DirectionState _directionState = DirectionState.Right;
-    private Transform _transform;
-    private float _walkTime = 0, _walkCooldown = 0.2f;
+    
 
-    public void MoveRight()
+    void Start()
     {
-        if (_moveState != MoveState.Jump)
-        {
-            _moveState = MoveState.Walk;
-            if (_directionState == DirectionState.Left)
-            {
-                _transform.localScale = new Vector3(-_transform.localScale.x, _transform.lossyScale.y, _transform.localScale.y);
-                _directionState = DirectionState.Right;
-            }
-            _walkTime = _walkCooldown;
-        }
+        _rb = GetComponent<Rigidbody2D>();
     }
-
-    public void MoveLeft()
-    {
-        if (_moveState != MoveState.Jump)
-        {
-            _moveState = MoveState.Walk;
-            if (_directionState == DirectionState.Right)
-            {
-                _transform.localScale = new Vector3(-_transform.localScale.x, _transform.localScale.y, _transform.localScale.z);
-                _directionState = DirectionState.Left;
-            }
-            _walkTime = _walkCooldown;
-        }
-    }
-
-    public void Jump()
-    {
-        if (_moveState != MoveState.Jump)
-        {
-            _Rigidbody.velocity = (Vector3.up * JumpForce * Time.deltaTime);
-            _moveState = MoveState.Jump;
-        }
-    }
-
-    private void Idle()
-    {
-        _moveState = MoveState.Idle;
-    }
-
-    private void Start()
-    {
-        _transform = GetComponent<Transform>();
-        _Rigidbody = GetComponent<Rigidbody2D>();
-        _directionState = transform.localScale.x > 0 ? DirectionState.Right : DirectionState.Left;
-    }
-
     private void Update()
     {
-        if (_moveState == MoveState.Jump)
+        JumpLogic();
+    }
+
+    void FixedUpdate()
+    {
+        Flip();
+        MovementLogic();
+    }
+
+    private void MovementLogic()
+    {
+        float moveHorizontal = Input.GetAxis("Horizontal");
+        _rb.velocity = new Vector2(moveHorizontal * Speed, _rb.velocity.y);
+    }
+
+    private void JumpLogic()
+    {
+        _isGrounded = Physics2D.OverlapCircle(_fetPos.position, _checkRadius, _whatIsGround);
+
+        if(_isGrounded == true && Input.GetKeyDown(KeyCode.Space))
         {
-            if(_Rigidbody.velocity == Vector2.zero)
-            {
-                Idle();
-            }
+            _rb.velocity = Vector2.up * JumpForce;
         }
     }
 
-    enum DirectionState
+    public void Flip()
     {
-        Right,
-        Left
+        if (Input.GetAxis("Horizontal") < 0)
+        {
+            transform.localRotation = Quaternion.Euler(0, 180, 0);
+        }
+
+        if (Input.GetAxis("Horizontal") > 0)
+        {
+            transform.localRotation = Quaternion.Euler(0, 0, 0);
+        }
     }
-
-    enum MoveState
-    {
-        Idle,
-        Walk,
-        Jump
-    }
-
-
 }
+
