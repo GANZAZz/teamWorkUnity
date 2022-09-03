@@ -176,6 +176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41c25dca01b8ea441837eb7d2d1ab310, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 266424}
   Speed: 8
   JumpForce: 7
   _fetPos: {fileID: 350306020}
@@ -382,7 +383,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 73720677}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f1e2e17a7bc9b7c438eb883dfc135816, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -900,7 +901,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.547391
+  orthographic size: 3.47
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -924,7 +925,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: -2.04, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1126,7 +1127,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 903021532}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f1e2e17a7bc9b7c438eb883dfc135816, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1388,7 +1389,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1023185023}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f1e2e17a7bc9b7c438eb883dfc135816, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1779,7 +1780,7 @@ GameObject:
   - component: {fileID: 1851747313}
   - component: {fileID: 1851747312}
   - component: {fileID: 1851747314}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Bonus Tileset_23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1862,7 +1863,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1851747311}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f1e2e17a7bc9b7c438eb883dfc135816, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
