@@ -13,7 +13,7 @@ public class playerMovement : MonoBehaviour
     private Rigidbody2D _rb;
     public float _checkRadius = 0.3f;
 
-
+    
 
     void Start()
     {
@@ -33,15 +33,13 @@ public class playerMovement : MonoBehaviour
 
     }
 
-    public void MovementLogic()
+    private void MovementLogic()
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
         _rb.velocity = new Vector2(moveHorizontal * Speed, _rb.velocity.y);
-        _animator.SetFloat("speed_anim", moveHorizontal);
-        if
     }
 
-    public void JumpLogic()
+    private void JumpLogic()
     {
 
         _isGrounded = Physics2D.OverlapCircle(_fetPos.position, _checkRadius, _whatIsGround);

@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41c25dca01b8ea441837eb7d2d1ab310, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 266424}
+  _animator: {fileID: 0}
   Speed: 8
   JumpForce: 7
   _fetPos: {fileID: 350306020}
@@ -281,7 +281,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 266423}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.626084, y: -3.220469, z: 0}
+  m_LocalPosition: {x: -5.8, y: -2.9558, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
